@@ -1,4 +1,4 @@
-import nav from './nav';
+import {nav} from './nav';
 import {tab} from './tab';
 
 document.addEventListener('DOMContentLoaded', () => {

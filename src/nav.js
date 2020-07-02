@@ -1,8 +1,10 @@
+const imageUrl = require('/dist/img/logo.png')
+
 const nav = (() => {
     const setNav = () => {
         const content = document.getElementById("content");
         const imageArea = new Image();
-        imageArea.src = '/dist/img/logo.png';
+        imageArea.src = imageUrl;
         const navArea = document.createElement('nav');
         const ulArea = document.createElement('ul');
         const liArea1 = document.createElement('li');
@@ -29,4 +31,4 @@ const nav = (() => {
     return { setNav };
 })();
 
-export default nav;
+export { nav };

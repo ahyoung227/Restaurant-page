@@ -1,3 +1,5 @@
+const imageUrl2 = require('/dist/img/pizza.jpeg')
+
 const tab = (() => {
     const setTab = () => {
         const content = document.getElementById("content");
@@ -9,7 +11,7 @@ const tab = (() => {
         const h2Area2 = document.createElement('h2');
         const h2Area3 = document.createElement('h2');
         const imageArea = new Image();
-        imageArea.src = '/dist/img/pizza.jpeg';
+        imageArea.src = imageUrl2;
         const pArea1 = document.createElement('p');
         const pArea2 = document.createElement('p');
         const pArea3 = document.createElement('p');
