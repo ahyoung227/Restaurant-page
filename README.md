@@ -4,7 +4,7 @@
 
 ## About The Project
 
-<a href="https://ahyoung227.github.io/restaurant-page/"><img src="dist/img/pizza-ahyoung.gif" width="300px" height="300px"></a>
+<a href="https://ahyoung227.github.io/restaurant-page/"><img src="dist/img/pizza-ahyoung.gif" width="500px" height="300px"></a>
 <a href="https://ahyoung227.github.io/restaurant-page/"> Link</a>
 
 ### Built With
